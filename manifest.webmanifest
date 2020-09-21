@@ -1,0 +1,18 @@
+{
+  "short_name": "Kharagpur",
+  "name": "Kharagpur city information",
+  "description": "About the history ,iit and railways of kharagpur",
+  "icons": [
+    {
+      "src": "/images/kgp.jpg",
+      "type": "image/jpg",
+      "sizes": "337x175"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.google.android.googlequicksearchbox",
+  }]
+}
