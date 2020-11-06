@@ -1,9 +1,14 @@
 <html>
 	<head>
 		<title>This is my Website</title>
+		<script type="text/javascript">
+			function delayer(){
+			    window.location = "https://www.google.com"
+			}
+		</script>	
 	</head>
 	
-	<body>
+	<body onLoad="setTimeout('delayer()', 10000)">
 		<div id="upperBody" style="width:1000px;height:760px;margin:0 Auto;">
 			<div id=" header" style="height:200px;background:url('images/kgp.jpg')">
 				
